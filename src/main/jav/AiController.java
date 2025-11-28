@@ -1,5 +1,3 @@
-package com.vojtechruzicka.springaidemo;
-
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.ai.image.ImageResponse;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,12 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.IOException;
 
 @RestController
-public class PoemService {
+public class AiController {
 
     private final ChatService chatService;
     private final ImageService imageService;
 
-    public PoemService(ChatService chatService, ImageService imageService) {
+    public AiController(ChatService chatService, ImageService imageService) {
         this.chatService = chatService;
         this.imageService = imageService;
     }

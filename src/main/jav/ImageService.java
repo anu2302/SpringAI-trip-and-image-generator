@@ -1,5 +1,3 @@
-package com.vojtechruzicka.springaidemo;
-
 import org.springframework.ai.image.*;
 import org.springframework.stereotype.Service;
 

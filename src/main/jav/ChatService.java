@@ -1,5 +1,3 @@
-package com.vojtechruzicka.springaidemo;
-
 import org.springframework.ai.chat.ChatClient;
 import org.springframework.ai.chat.prompt.Prompt;
 import org.springframework.ai.chat.prompt.PromptTemplate;
